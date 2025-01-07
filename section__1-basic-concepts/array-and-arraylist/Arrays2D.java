@@ -6,7 +6,21 @@ class BasicsOf2DArray{
         {4, 5, 6},
         {7, 8, 9}
     };
+    public void displayMatrix(int[][] matrix) {
 
+        System.out.println("The members of the matrix are as follows: ");
+        for (int row = 0; row < matrix.length; row++) {
+            for (int column = 0; column < matrix[row].length; column++) {
+                int member = matrix[row][column];
+                System.out.print(member + " ");
+            }
+            System.out.println();
+        }
+    }
+    public void createMatrix(){
+        int[][] matrix = new int[5][10];
+        displayMatrix(matrix);
+    }
     protected void display(){
         // Row-wise traversal
         for (int i = 0; i < numbersMatrix.length; i++) { // Iterate over rows
@@ -51,5 +65,6 @@ public class Arrays2D {
         BasicsOf2DArray basicsOf2DArray = new BasicsOf2DArray();
         basicsOf2DArray.display();
         basicsOf2DArray.Search2DArray();
+        basicsOf2DArray.createMatrix();
     }
 }
