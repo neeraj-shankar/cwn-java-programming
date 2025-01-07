@@ -200,7 +200,6 @@ There are several implementations of the `Map` interface, each suited for differ
 
 ---
 
-
 ### **HashMap in Detail**
 
 The `HashMap` class in Java is one of the most widely used implementations of the `Map` interface. It is a powerful, efficient, and flexible data structure for storing and accessing key-value pairs.
@@ -434,4 +433,205 @@ java: 1
 
 ---
 
-Would you like to dive into advanced HashMap topics, such as custom keys, performance tuning, or concurrent maps? 😊
+
+Sure! Here's a detailed explanation of the **HashSet** methods available in Java, along with their usage, time complexity, and space complexity.
+
+---
+
+### **Overview of HashSet**
+
+- **HashSet** is part of the **Java Collection Framework**.
+- It implements the **Set** interface and is backed by a **HashMap**.
+- It **does not allow duplicate elements** and **does not maintain insertion order**.
+
+---
+
+### **Key Methods of HashSet**
+
+Below are the commonly used methods in **HashSet**, with explanations:
+
+#### 1. **add(E e)**
+
+- **Usage:** Adds the specified element to the set if it is not already present.
+- **Time Complexity:**
+  - **Average Case:** \(O(1)\)
+  - **Worst Case:** \(O(n)\), when many elements have the same hash code (hash collisions).
+- **Space Complexity:** \(O(1)\) for the element itself, but overall \(O(n)\) for maintaining the internal hash table.
+
+**Example:**
+
+```java
+HashSet<Integer> set = new HashSet<>();
+set.add(10);  // Adds 10 to the set
+set.add(20);  // Adds 20 to the set
+```
+
+---
+
+#### 2. **contains(Object o)**
+
+- **Usage:** Checks if the set contains the specified element.
+- **Time Complexity:**
+  - **Average Case:** \(O(1)\)
+  - **Worst Case:** \(O(n)\) (in case of hash collisions).
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.contains(10);  // Returns true if 10 is in the set
+```
+
+---
+
+#### 3. **remove(Object o)**
+
+- **Usage:** Removes the specified element from the set if it is present.
+- **Time Complexity:**
+  - **Average Case:** \(O(1)\)
+  - **Worst Case:** \(O(n)\) (in case of hash collisions).
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.remove(10);  // Removes 10 from the set
+```
+
+---
+
+#### 4. **isEmpty()**
+
+- **Usage:** Checks if the set is empty.
+- **Time Complexity:** \(O(1)\)
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.isEmpty();  // Returns true if the set is empty
+```
+
+---
+
+#### 5. **size()**
+
+- **Usage:** Returns the number of elements in the set.
+- **Time Complexity:** \(O(1)\)
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.size();  // Returns the size of the set
+```
+
+---
+
+#### 6. **clear()**
+
+- **Usage:** Removes all elements from the set.
+- **Time Complexity:** \(O(n)\) (needs to clear all elements).
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.clear();  // Clears the set
+```
+
+---
+
+#### 7. **iterator()**
+
+- **Usage:** Returns an iterator over the elements in the set.
+- **Time Complexity:** \(O(1)\) for getting the iterator; \(O(1)\) for moving to the next element in most cases.
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+Iterator<Integer> it = set.iterator();
+while (it.hasNext()) {
+    System.out.println(it.next());
+}
+```
+
+---
+
+#### 8. **addAll(Collection<? extends E> c)**
+
+- **Usage:** Adds all elements from the specified collection to the set.
+- **Time Complexity:** \(O(k)\), where \(k\) is the number of elements in the input collection.
+- **Space Complexity:** \(O(k)\), for storing the added elements.
+
+**Example:**
+
+```java
+HashSet<Integer> set2 = new HashSet<>();
+set2.addAll(Arrays.asList(30, 40, 50));
+```
+
+---
+
+#### 9. **removeAll(Collection<?> c)**
+
+- **Usage:** Removes all elements in the specified collection from the set.
+- **Time Complexity:** \(O(k)\), where \(k\) is the size of the collection.
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.removeAll(set2);  // Removes elements present in set2
+```
+
+---
+
+#### 10. **retainAll(Collection<?> c)**
+
+- **Usage:** Retains only the elements in the set that are contained in the specified collection (intersection).
+- **Time Complexity:** \(O(n)\), where \(n\) is the size of the set.
+- **Space Complexity:** \(O(1)\)
+
+**Example:**
+
+```java
+set.retainAll(Arrays.asList(10, 20));  // Keeps only common elements
+```
+
+---
+
+#### 11. **toArray()**
+
+- **Usage:** Converts the set into an array.
+- **Time Complexity:** \(O(n)\)
+- **Space Complexity:** \(O(n)\)
+
+**Example:**
+
+```java
+Object[] array = set.toArray();
+```
+
+---
+
+### **Time and Space Complexity Summary**
+
+| Method           | Time Complexity (Average) | Time Complexity (Worst) | Space Complexity |
+| ---------------- | ------------------------- | ----------------------- | ---------------- |
+| add(E e)         | \(O(1)\)                  | \(O(n)\)                | \(O(1)\)         |
+| contains(Object) | \(O(1)\)                  | \(O(n)\)                | \(O(1)\)         |
+| remove(Object)   | \(O(1)\)                  | \(O(n)\)                | \(O(1)\)         |
+| isEmpty()        | \(O(1)\)                  | \(O(1)\)                | \(O(1)\)         |
+| size()           | \(O(1)\)                  | \(O(1)\)                | \(O(1)\)         |
+| clear()          | \(O(n)\)                  | \(O(n)\)                | \(O(1)\)         |
+| iterator()       | \(O(1)\)                  | \(O(1)\)                | \(O(1)\)         |
+| addAll()         | \(O(k)\)                  | \(O(k)\)                | \(O(k)\)         |
+| removeAll()      | \(O(k)\)                  | \(O(k)\)                | \(O(1)\)         |
+| retainAll()      | \(O(n)\)                  | \(O(n)\)                | \(O(1)\)         |
+| toArray()        | \(O(n)\)                  | \(O(n)\)                | \(O(n)\)         |
+
+---
+
+Let me know if you'd like more examples or deeper insights into any of these methods! 😊
