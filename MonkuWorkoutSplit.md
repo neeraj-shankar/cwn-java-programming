@@ -1,16 +1,4 @@
-# Monku: Tailored 5-Day Workout Plan
-
-**Age:** 29 years
-
-**Height:** 5.8 ft
-
-**Weight:** 66 kg
-
-**Goal:** Full-body strength, muscle toning, fat loss, and endurance improvement
-
-This 5-day split focuses on balanced muscle development, progressive overload, core strength, and cardiovascular health. The plan includes resistance training, functional movements, and cardio & abs every alternate day to optimize recovery and results.
-
----
+# 5 DAY WORKOUT SPLIT
 
 ## **Day 1: Lower Body Strength (Glutes, Quads, Hamstrings)**
 
@@ -21,170 +9,126 @@ This 5-day split focuses on balanced muscle development, progressive overload, c
 
 ### Workout:
 
-1. **Back Squat** - 4 sets x 8-10 reps
+##### **Back Squat** - 4 sets x 8-10 reps
 
-   *Target:* Quads, Hamstrings, Glutes
+*Target:* Quads, Hamstrings, Glutes
 
-   *Benefits:* Builds lower body strength, improves core stability, enhances mobility
-2. **Leg Press** - 4 sets x 15 reps
+*Benefits:* Builds lower body strength, improves core stability, enhances mobility
 
-   *Target:* Quads, Hamstrings, Glutes
+##### **Leg Press** - 4 sets x 20 reps
 
-   *Benefits:* Increases leg muscle size and strength, reduces spinal load
-3. **Romanian Deadlifts** - 4 sets x 10 reps
+*Target:* Quads, Hamstrings, Glutes
 
-   *Target:* Hamstrings, Glutes, Lower Back
+*Benefits:* Increases leg muscle size and strength, reduces spinal load
 
-   *Benefits:* Improves posterior chain strength, enhances hip mobility
-4. **Bulgarian Split Squats** - 3 sets x 8 reps per leg
+##### Superset 1
 
-   *Target:* Quads, Glutes, Hamstrings
+1. **Leg Extensions - 4 sets**,  -  descending rep range - 25, 20, 15, 10 increasing weight each time.
+2. **Leg Curls - 4 x 8 reps**
 
-   *Benefits:* Enhances balance, increases unilateral leg strength
-5. **Glute Bridges** - 3 sets x 12 reps
+##### **Superset 2**
 
-   *Target:* Glutes, Hamstrings
+1. **Good Mornings - 3 x 8 reps**
+2. **Reverse Lunges - 3 x 8 reps**
 
-   *Benefits:* Strengthens glutes, improves hip stability
-6. **Standing Calf Raises** - 3 sets x 15 reps
+*Target:* Hamstrings, Glutes, Lower Back
 
-   *Target:* Calves
+*Benefits:* Improves posterior chain strength, enhances hip mobility
 
-   *Benefits:* Builds calf strength and endurance
+##### **Superset 3**
 
-### Cardio & Abs:
+1. **Stiff Leg Deadlift - 3 x 8 reps**
+2. **Glute Hamstring Raise - 3 x 8 reps**
 
-* **Treadmill Walk (Incline)** - 20-30 mins
-* **Plank** - 3 sets x 45 secs
+##### Standing Calf Raises - 4 x 16 reps
 
-  *Target:* Core, Shoulders, Back
+### Abs:
 
-  *Benefits:* Improves core stability, strengthens shoulders
-* **Bicycle Crunches** - 3 sets x 20 reps
+##### Stability Ball Crunches: 15-20 Reps
 
-  *Target:* Obliques, Rectus Abdominis
+##### Lying Leg Raise: 15-20 Reps
 
-  *Benefits:* Enhances core strength, improves abdominal definition
-* **Leg Raises** - 3 sets x 15 reps
+##### Obliques Crunches: 15-20 Reps
 
-  *Target:* Lower Abs
+##### Spiderman Crunches: 15-20 Reps
 
-  *Benefits:* Strengthens lower abdominal muscles
-
----
-
-## **Day 2: Upper Body (Chest, Shoulders, Triceps)**
+## **Day 2: CHEST & TRICEPS**
 
 ### Warm-Up:
 
-* Arm circles and shoulder rolls - 5 mins
-* Light resistance band exercises - 3 mins
+* Incline Push-Ups (2 sets of 10-15 reps)
+* Band Pull-Apart (2 sets of 15-20 reps)
+* Close-Grip Push-Ups (2 sets of 10-12 reps)
 
 ### Workout:
 
-1. **Incline Dumbbell Press** - 4 sets x 10-12 reps
+##### **Incline DB Press - 4 x 10-12 reps**
 
-   *Target:* Upper Chest, Shoulders, Triceps
+##### Superset 1
 
-   *Benefits:* Builds upper chest muscles, improves shoulder stability
-2. **Arnold Shoulder Press** - 3 sets x 10 reps
+1. **Cable Flys -**  3 x 16 reps
+2. **Tricep Extensions -** 3 x 16 reps
 
-   *Target:* Shoulders
+##### Superset 2
 
-   *Benefits:* Enhances shoulder strength and mobility
-3. **Lateral Raises** - 3 sets x 12 reps
+1. **DB Pull Overs - 3 x 10 reps**
+2. **DB Tricep Extensions - 3 x 10 reps**
 
-   *Target:* Lateral Deltoids
+##### **Weighted Dips weighted - 3 x 10 reps**
 
-   *Benefits:* Increases shoulder width, improves aesthetics
-4. **Push-Ups (Incline or Standard)** - 3 sets x 10-12 reps
+##### Superset 3
 
-   *Target:* Chest, Shoulders, Triceps
+1. **Pec Dec Fly - 3 x16 reps**
+2. **Overhead Tricep Extensions with rope - 3 x 10 reps**
 
-   *Benefits:* Strengthens upper body muscles, improves endurance
-5. **Tricep Dips (Bench)** - 3 sets x 10-12 reps
+##### **Machine Press - 3 x 10-12**
 
-   *Target:* Triceps
+### Abs:
 
-   *Benefits:* Builds arm strength, enhances upper body endurance
-6. **Overhead Tricep Extension (Dumbbell)** - 3 sets x 10 reps
+* **Skipping** - 10 mins
+* **Flat Traidmill running - 20 minutes**
 
-   *Target:* Triceps
-
-   *Benefits:* Isolates and strengthens triceps
-
-### Cardio & Abs:
-
-* **Skipping** - 15 mins
-* **Russian Twists** - 3 sets x 20 reps (with weight)
-
-  *Target:* Obliques, Core
-
-  *Benefits:* Improves core strength, enhances rotational stability
-* **Plank Shoulder Taps** - 3 sets x 20 reps
-
-  *Target:* Core, Shoulders
-
-  *Benefits:* Improves core stability, enhances shoulder strength
-
----
-
-## **Day 3: Functional Cardio & Core**
+## **Day 3: **SHOULDERS****
 
 ### Warm-Up:
 
-* Jump rope or jogging - 5 mins
-* Dynamic stretches - 3 mins
+* **Warm Up - Rotator Cuffs - 3 x 8 each arm**
 
 ### Workout:
 
-1. **Battle Ropes** - 30 secs on, 30 secs off (10 rounds)
+##### **DB Shoulder Press - 4 sets - adding weight, 20, 18, 12, 8 reps**
 
-   *Target:* Full Body
+##### Tri Set (Middle Delt)
 
-   *Benefits:* Improves cardiovascular endurance, enhances upper body strength
-2. **Tyre Flips** - 10 flips x 3 rounds
+1. **Upright Rows - 4 x 10 reps**
+2. **Partial Lateral Raise (heavy) - 4 x 8 reps**
+3. **Full Lateral Raise (lighter) 8 - 4 sets**
 
-   *Target:* Legs, Core, Arms
+##### **Superset (Front Delt)**
 
-   *Benefits:* Builds explosive power, improves functional strength
-3. **Hammer Slams** - 12 reps x 3 rounds
+1. **Incline Front Raise - 3 x 8 reps**
+2. **Face Down Front Raise - 3 x 8 reps**
 
-   *Target:* Shoulders, Arms, Core
+##### **Superset (Rear Delt)**
 
-   *Benefits:* Increases upper body strength, improves coordination
-4. **Hurdle Jumps** - 3 sets x 12 reps
+1. **Seated Face Pulls - 3 x 8 reps**
+2. **Lying Reverse Fly - 3 x 12 reps**
 
-   *Target:* Legs, Glutes
+##### **Machine Shoulder Press - 3 x 15 reps**
 
-   *Benefits:* Enhances explosive power, improves agility
-5. **Agility Ladder Drills** - 3 rounds
+##### **Single Arm Cable Lateral Raise (changing angles) - 3 x 8 + 8 reps each angle**
 
-   *Target:* Legs, Core
+### Cardio and Functional
 
-   *Benefits:* Improves coordination, increases speed and agility
+##### **Battle Ropes - 30 secs on, 30 secs off (10 rounds)**
 
-### Core:
+##### **HIIT (High-Intensity Interval Training) - 15-20 mins (e.g., 30 secs sprint, 30 secs walk)**
 
-* **V-Ups** - 3 sets x 15 reps
-
-  *Target:* Upper and Lower Abs
-
-  *Benefits:* Strengthens core, improves abdominal definition
-* **Side Plank (Each Side)** - 3 sets x 30 secs
-
-  *Target:* Obliques, Core
-
-  *Benefits:* Enhances core stability, strengthens obliques
-* **Mountain Climbers** - 3 sets x 20 reps
-
-  *Target:* Core, Shoulders, Legs
-
-  *Benefits:* Improves cardiovascular fitness, strengthens core
+##### **Plank with Leg Lift** - 3 sets x 15 reps
 
 ---
 
-## **Day 4: Lower Body (Hypertrophy & Endurance)**
+## **Day 4: **LEG DAY 2****
 
 ### Warm-Up:
 
@@ -193,99 +137,71 @@ This 5-day split focuses on balanced muscle development, progressive overload, c
 
 ### Workout:
 
-1. **Front Squats** - 4 sets x 10 reps
+##### **Front Squats (Elevated Heels - with quarter reps ) - 5 x 8 reps**
 
-   *Target:* Quads, Glutes, Core
+##### **Leg Press (Feet high & wide) - 4 x 8 reps**
 
-   *Benefits:* Builds lower body strength, improves posture
-2. **Leg Curls (Machine)** - 4 sets x 12 reps
+##### **Superset** 1
 
-   *Target:* Hamstrings
+1. **Hack Squat 4 x 10 reps**
+2. **Bodyweight Sissy Squat 4 x 10 reps**
 
-   *Benefits:* Strengthens hamstrings, reduces risk of injury
-3. **Hip Thrusts** - 4 sets x 12 reps
+##### **Superset 2**
 
-   *Target:* Glutes
+1. **Leg Extension -** 4 x 10 reps
+2. **Trap Bar Deficit Deadlift (standing on a plate) 4 x 20 reps**
 
-   *Benefits:* Enhances glute strength, improves hip stability
-4. **Step-Ups (Weighted)** - 3 sets x 8 reps per leg
+##### **Superset 3**
 
-   *Target:* Quads, Glutes
+1. **Lying Leg Curl - 4 x 8 reps**
+2. **Bulgarian Split Squat - 4 x 8 reps**
 
-   *Benefits:* Improves balance, builds leg strength
-5. **Sumo Deadlifts** - 3 sets x 10 reps
+### Abs:
 
-   *Target:* Glutes, Hamstrings, Back
-
-   *Benefits:* Strengthens posterior chain, enhances hip mobility
-6. **Walking Lunges** - 3 sets x 12 reps
-
-   *Target:* Quads, Glutes, Hamstrings
-
-   *Benefits:* Increases leg strength, improves balance
-
-### Cardio & Abs:
-
-* **Stairmaster or Cycling** - 20-30 mins
+* **Jack Knives - 4 x 15 reps**
 * **Hanging Leg Raises** - 3 sets x 12 reps
-
-  *Target:* Lower Abs
-
-  *Benefits:* Strengthens core, improves hip flexor mobility
-* **Side Plank with Reach-Through** - 3 sets x 15 reps per side
-
-  *Target:* Obliques, Core
-
-  *Benefits:* Enhances rotational strength, improves core stability
+* **Weighted Russian Twists  - 3 sets x 15 reps**
 
 ---
 
-## **Day 5: Upper Body (Back & Biceps)**
+## **Day 5: **BACK & BICEPS****
 
 ### Warm-Up:
 
-* Resistance band pulls - 5 mins
-* Dynamic arm stretches - 3 mins
+* **Pull-Ups (Assisted or Unassisted)** - 3 sets x 8-10 reps
+* **Trap Raise Reverse Fly - 2 x 12-15 reps**
 
 ### Workout:
 
-1. **Pull-Ups (Assisted or Unassisted)** - 4 sets x 8-10 reps
+##### **Close Grip Pull Down - 4 x 8-12**
 
-   *Target:* Back, Biceps, Core
+##### **Seated Low Cable Row (Close Grip) - 4 x 10-12 (dropset on the last set)**
 
-   *Benefits:* Builds upper body strength, improves grip strength
-2. **Seated Cable Rows** - 4 sets x 10 reps
+##### **Machine Row - 3 x 10-12 reps**
 
-   *Target:* Back
+##### **Superset** 1
 
-   *Benefits:* Strengthens back muscles, improves posture
-3. **Lat Pulldown** - 4 sets x 10-12 reps
+1. **Rope Pullovers - 4 x 10-12 reps**
+2. **Face Pulls - 4 x 10-12 reps**
 
-   *Target:* Back
+##### **Superset** 2
 
-   *Benefits:* Increases upper body strength, enhances lat development
-4. **Bent Over Rows (Dumbbell or Barbell)** - 3 sets x 8 reps
+1. **Bent Over Row - 3 x 8 reps**
+2. **Chest Supported Row - 3 x 10 reps**
 
-   *Target:* Back, Core
+##### **Machine Pulldown - 4 sets, descending reps - 20, 16, 12, 8 reps**
 
-   *Benefits:* Strengthens posterior chain, improves core stability
-5. **Bicep Curls (Dumbbell)** - 3 sets x 12 reps
+##### **Zottman DB Curl - 3 x 10-12 reps**
 
-   *Target:* Biceps
-
-   *Benefits:* Builds arm strength, improves aesthetics
-6. **Hammer Curls** - 3 sets x 12 reps
-
-   *Target:* Biceps, Forearms
-
-   *Benefits:* Enhances forearm strength, improves grip
+##### **Low Cable Concentration Curl - 4 x 8-10 reps**
 
 ### Cardio & Abs:
 
-* **HIIT (High-Intensity Interval Training)** - 15-20 mins (e.g., 30 secs sprint, 30 secs walk)
-* **Plank with Leg Lift** - 3 sets x 15 reps
+##### **Treadmill Walk (Incline)** - 20-30 mins
 
-  *Target:* Core, Glutes
+##### **Plank** - 3 sets x 45 secs
+
+* *Target:* Core, Glutes
 
   *Benefits:* Improves core stability, strengthens glutes
 * **Flutter Kicks** - 3 sets x 20 reps
@@ -293,12 +209,3 @@ This 5-day split focuses on balanced muscle development, progressive overload, c
   *Target:* Lower Abs
 
   *Benefits:* Strengthens core, improves endurance
-
----
-
-### **Notes:**
-
-* Ensure proper form for all exercises to prevent injuries.
-* Adjust weights based on strength level and progressively increase over time.
-* Take rest days or active recovery days as needed.
-* Stay hydrated and maintain a balanced diet to complement your workout routine.
