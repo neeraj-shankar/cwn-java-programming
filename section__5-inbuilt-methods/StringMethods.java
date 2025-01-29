@@ -4,6 +4,9 @@ class StringBuiltIn{
 
         // getting the length of the string.
         int len = s.length(); 
+
+        //Trim the input string.
+        s = s.trim();
     }
 }
 public class StringMethods {
