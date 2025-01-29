@@ -38,3 +38,20 @@
 ### Conclusion
 
 This implementation highlights how Java optimizes string storage and length calculations by using different encodings. The `length()` method efficiently returns the number of characters, regardless of the underlying representation, ensuring that the string's length is correctly reported in terms of Unicode code units.
+
+## trim() method
+
+```sh
+public static String trim(byte[] value) {
+        int len = value.length;
+        int st = 0;
+        while ((st < len) && ((value[st] & 0xff) <= ' ')) {
+            st++;
+        }
+        while ((st < len) && ((value[len - 1] & 0xff) <= ' ')) {
+            len--;
+        }
+        return ((st > 0) || (len < value.length)) ?
+            newString(value, st, len - st) : null;
+    }
+```
