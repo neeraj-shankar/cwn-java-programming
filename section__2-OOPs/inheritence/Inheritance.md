@@ -155,9 +155,119 @@ class Dog extends Animal {
 
 ---
 
-## FAQs
+### 🔁 **Method Overloading** (Compile-Time Polymorphism)
 
-Sure! Here's a solid list of **Java inheritance-related interview questions** tailored for someone with **4-5 years of experience** — expect the focus to be on **depth, design, and practical usage**, not just theory.
+**Overloading** means creating **multiple methods with the same name** but **different parameter lists** within the same class.
+
+> It’s like one name, many behaviors — depending on **arguments**.
+
+#### 🎯 Key Points
+
+- Happens **within the same class**
+- Parameters must be **different in number or type**
+- Return type can be same or different (but can't overload based on return type alone)
+- Resolved at **compile-time**
+
+#### ✅ Example
+
+```java
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    double add(double a, double b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+```
+
+---
+
+### 🔄 **Method Overriding** (Run-Time Polymorphism)
+
+### ✅ What is it?
+
+**Overriding** means **redefining a method** in a subclass that is already defined in the superclass.
+
+> It’s like a subclass saying: *“I’ll do this differently than my parent.”*
+
+#### 🎯 Key Points:
+
+- Must have **same method signature**
+- Happens in **inheritance hierarchy**
+- Return type must be the same (or covariant — i.e., subtype)
+- Access level must be **same or more permissive**
+- Resolved at **run-time**
+- Can’t override `final`, `static`, or `private` methods
+
+#### ✅ Example of Overriding
+
+```java
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+```
+
+```java
+Animal obj = new Dog();
+obj.sound();  // Output: Dog barks (runtime polymorphism)
+```
+
+---
+
+### 🔍 Comparison Table
+
+| Feature              | Overloading                          | Overriding                              |
+|----------------------|---------------------------------------|------------------------------------------|
+| Where                | Same class                           | Subclass (inherits from parent)          |
+| Signature            | Must differ                          | Must be same                             |
+| Return Type          | Can differ                           | Must be same (or covariant)              |
+| Access Modifier      | Irrelevant                           | Cannot be more restrictive               |
+| Static/Final Methods | Can be overloaded                    | Cannot be overridden                     |
+| Resolution Time      | Compile-time                         | Runtime                                  |
+
+---
+
+### 💡 Bonus: Static Method Behavior
+
+```java
+class Parent {
+    static void sayHi() {
+        System.out.println("Hi from Parent");
+    }
+}
+
+class Child extends Parent {
+    static void sayHi() {
+        System.out.println("Hi from Child");
+    }
+}
+```
+
+```java
+Parent obj = new Child();
+obj.sayHi();  // Output: Hi from Parent (not overridden, but hidden)
+```
+
+➡️ This is called **method hiding**, not overriding!
+
+---
+
+## FAQs
 
 ---
 
