@@ -1,6 +1,8 @@
-Let's dive into **bitwise operations** and **bit masking**, as these are foundational to bit manipulation in Java.
+# Bits Manipulation - A comprehensive walkthrough
 
 ---
+
+## Basics Of Bits
 
 ### **1. Bitwise Operations in Java**
 
@@ -83,32 +85,38 @@ A **bit mask** is a binary number that is used to manipulate specific bits of an
      System.out.println(isSet); // Output: true
      ```
 
-#### **Practical Example: Extract Odd/Even**
+## Bits - Topic Wise
 
-- **Check if a number is odd or even:**
-  ```java
-  public class BitMaskDemo {
-      public static void main(String[] args) {
-          int num = 5; // Binary: 0101
-          if ((num & 1) == 1) {
-              System.out.println(num + " is Odd");
-          } else {
-              System.out.println(num + " is Even");
-          }
-      }
-  }
-  ```
+### Bitwise XOR
 
----
+**XOR (Exclusive OR)** compares each bit of two integers:
 
-### **Key Applications of Bit Manipulation**
+  1. Returns 1 if only one of the bits is 1
 
-- **Count set bits** (Hamming Weight).
-- **Detect power of two**.
-- **Reverse bits** in an integer.
-- **Find the unique number** in an array where all others appear twice.
-- **Efficient subset generation** using binary representation.
+  2. Returns 0 if both bits are the same
 
----
+| A | B | A ^ B |
+| - | - | ----- |
+| 0 | 0 | 0     |
+| 0 | 1 | 1     |
+| 1 | 0 | 1     |
+| 1 | 1 | 0     |
 
-Where do you want to go next? Should we dive into specific problems, or explore advanced applications like subset generation or efficient XOR tricks?n
+### Bitwise Left Shift
+
+The **left shift operator << shifts** the bits of a number to the left by a specified number of positions.
+
+```java
+result = number << n;
+```
+
+- This shifts the bits of number to the left by n positions
+- Each shift left is equivalent to *multiplying the number by 2^n*.
+
+#### ⚠️ Java Behavior
+
+- Java fills in zeros from the right when shifting left.
+
+- Bits shifted out of the left end are discarded.
+
+- Java uses 32-bit integers for int and 64-bit for long.
