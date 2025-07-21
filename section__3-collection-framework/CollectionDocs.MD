@@ -1,16 +1,20 @@
-# **Understand the Basics**
+# Java Collection Framework
 
 ## **What is the Collection Framework?**
 The Java Collection Framework is a unified architecture for storing and manipulating groups of data (i.e., collections). It provides interfaces, classes, and algorithms to work with lists, sets, queues, maps, etc.
 
 
-## **Key Interfaces**
+1. **Collection**: The root interface of the collection hierarchy. It is a group of objects, known as its elements.
 
-- **List**: Ordered collection (ArrayList, LinkedList, Vector).
-- **Set**: Unique elements (HashSet, LinkedHashSet, TreeSet).
-- **Map**: Key-value pairs (HashMap, LinkedHashMap, TreeMap).
+2. **List**: An ordered collection (also known as a sequence). Lists can contain duplicate elements. Common implementations include:
+   - `ArrayList`: A resizable array implementation.
+   - `LinkedList`: An implementation using a doubly linked list.
+   - `Vector`: A synchronized version of `ArrayList`.
 
----
+3. **Set**: A collection that cannot contain duplicate elements. Common implementations include:
+   - `HashSet`: A set based on a hash table.
+   - `LinkedHashSet`: A hash table and linked list implementation that maintains the order of elements.
+   - `TreeSet`: A set that uses a tree for storage, maintaining sorted order.
 
 ## Major Implementations
 
