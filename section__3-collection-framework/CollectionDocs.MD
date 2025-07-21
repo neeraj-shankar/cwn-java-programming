@@ -1,8 +1,8 @@
 # Java Collection Framework
 
-The Java Collections Framework is a set of classes and interfaces that implement commonly reusable collection data structures. Here’s an overview of the main components:
+## **What is the Collection Framework?**
+The Java Collection Framework is a unified architecture for storing and manipulating groups of data (i.e., collections). It provides interfaces, classes, and algorithms to work with lists, sets, queues, maps, etc.
 
-## Key Interfaces
 
 1. **Collection**: The root interface of the collection hierarchy. It is a group of objects, known as its elements.
 
@@ -16,53 +16,46 @@ The Java Collections Framework is a set of classes and interfaces that implement
    - `LinkedHashSet`: A hash table and linked list implementation that maintains the order of elements.
    - `TreeSet`: A set that uses a tree for storage, maintaining sorted order.
 
-4. **Queue**: A collection used to hold multiple elements prior to processing. It typically orders elements in a FIFO (first-in-first-out) manner. Common implementations include:
-   - `PriorityQueue`: An unbounded priority queue based on a priority heap.
-   - `ArrayDeque`: A resizable array implementation of the `Deque` interface.
+## Major Implementations
 
-5. **Map**: An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value. Common implementations include:
-   - `HashMap`: A hash table-based implementation.
-   - `LinkedHashMap`: A hash table and linked list implementation that maintains the order of elements.
-   - `TreeMap`: A Red-Black tree-based implementation that maintains sorted order.
+| Interface | Implementations                                                         |
+| --------- | ----------------------------------------------------------------------- |
+| `List`    | `ArrayList`, `LinkedList`, `Vector`, `Stack`                            |
+| `Set`     | `HashSet`, `LinkedHashSet`, `TreeSet`                                   |
+| `Queue`   | `PriorityQueue`, `ArrayDeque`, `LinkedList`                             |
+| `Deque`   | `ArrayDeque`, `LinkedList`                                              |
+| `Map`     | `HashMap`, `TreeMap`, `LinkedHashMap`, `Hashtable`, `ConcurrentHashMap` |
 
-### Key Concepts
 
-- **Iterators**: Used to traverse collections.
-- **Generics**: Used to ensure type safety.
-- **Algorithms**: Utility methods for collections, like sorting and searching, provided by the `Collections` class.
+## List Interface
+It is part of the java.util package and extends the Collection interface. List is an ordered collection (also known as a sequence). It Maintains insertion order, Allows duplicates, Supports index-based access.
 
-## ArrayList
+### Commonly Used Implementations of List
 
-An ArrayList is a resizable array implementation of the List interface. It provides the flexibility of dynamic arrays that can grow as needed. It is part of the java.util package.
+| Class        | Key Characteristics                                                    |
+| ------------ | ---------------------------------------------------------------------- |
+| `ArrayList`  | Fast random access, dynamic array, slow inserts/removals in the middle |
+| `LinkedList` | Doubly-linked list, fast inserts/removals anywhere, slower access      |
+| `Vector`     | Legacy class, synchronized (thread-safe), slower performance           |
+| `Stack`      | Subclass of `Vector`, follows LIFO order                               |
 
-### Key Characteristics
+### Comparison Between Implementations
 
-- **Dynamic Size:** Unlike arrays, the size of an ArrayList can grow or shrink dynamically.
-- **Index-Based:** Provides fast, random access to elements using an index.
-- **Allows Duplicates:** ArrayList can contain duplicate elements.
-- **Null Elements:** Allows storing null values.
+| Feature       | `ArrayList`     | `LinkedList`        | `Vector`           |
+| ------------- | --------------- | ------------------- | ------------------ |
+| Backing Data  | Array           | Doubly Linked List  | Array              |
+| Access Speed  | Fast (O(1))     | Slow (O(n))         | Fast (O(1))        |
+| Insert/Delete | Slow (O(n))     | Fast (O(1)/O(n))    | Slow (O(n))        |
+| Thread Safe   | No              | No                  | Yes                |
+| Use Case      | Frequent access | Frequent add/remove | Legacy/thread-safe |
 
-### Arraylist Methods
+### 📌 Key Methods of List Interface
 
-| Method                  | Usage Description                                               | Time Complexity | Space Complexity |
-|-------------------------|-----------------------------------------------------------------|-----------------|------------------|
-| `add(E element)`        | Appends the specified element to the end of the list.           | O(1) amortized  | O(n) (dynamic resizing) |
-| `add(int index, E element)` | Inserts the specified element at the specified position.       | O(n)            | O(n) (dynamic resizing) |
-| `get(int index)`        | Returns the element at the specified position in the list.      | O(1)            | O(1)             |
-| `set(int index, E element)` | Replaces the element at the specified position with the specified element. | O(1)            | O(1)             |
-| `remove(int index)`     | Removes the element at the specified position.                  | O(n)            | O(n) (dynamic resizing) |
-| `remove(Object o)`      | Removes the first occurrence of the specified element.          | O(n)            | O(n) (dynamic resizing) |
-| `size()`                | Returns the number of elements in the list.                     | O(1)            | O(1)             |
-| `clear()`               | Removes all elements from the list.                             | O(n)            | O(n) (dynamic resizing) |
-| `contains(Object o)`    | Returns `true` if the list contains the specified element.      | O(n)            | O(1)             |
-| `indexOf(Object o)`     | Returns the index of the first occurrence of the specified element. | O(n)         | O(1)             |
-| `lastIndexOf(Object o)` | Returns the index of the last occurrence of the specified element. | O(n)         | O(1)             |
-| `isEmpty()`             | Returns `true` if the list contains no elements.                | O(1)            | O(1)             |
-| `toArray()`             | Returns an array containing all elements in the list.           | O(n)            | O(n)             |
-| `iterator()`            | Returns an iterator over the elements in the list.              | O(1)            | O(1)             |
-| `listIterator()`        | Returns a list iterator over the elements in the list.          | O(1)            | O(1)             |
-
-### Notes
-
-- **Amortized Complexity**: The amortized time complexity for adding elements is O(1) because the array resizes occasionally as it grows. Resizing involves copying elements to a new array, which is why it can occasionally be O(n).
-- **Space Complexity**: The space complexity involves the dynamic resizing of the underlying array. When the array grows, a new array is created with increased capacity, typically 1.5 times the current size.
+- add(E element)
+- add(int index, E element)
+- get(int index)
+- set(int index, E element)
+- remove(int index) / remove(Object o)
+- indexOf(Object o)
+- lastIndexOf(Object o)
+- subList(int fromIndex, int toIndex)
