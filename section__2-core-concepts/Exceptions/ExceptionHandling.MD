@@ -55,3 +55,48 @@ An exception is an event that occurs during the execution of a program that disr
 | ❌ Error                | `StackOverflowError`             | Infinite recursive call stack                            | Infinite recursion                  |
 | ❌ Error                | `NoClassDefFoundError`           | Class was present at compile time but missing at runtime | Missing class on classpath          |
 | ❌ Error                | `AssertionError`                 | Fails a program assertion (from `assert` keyword)        | `assert x > 0;` when x is -1        |
+
+## Exception Handling Insights
+
+### A Multi Catch Block
+- A multi-catch block allows you to catch multiple exception types in a single catch block,  using the | (pipe) separator.
+- Reduces code duplication when different exceptions need the same handling.
+- caught exception must not have a common parent-child relationship (other than Exception or Throwable).
+```java
+catch (IOException | SQLException e) // Valid
+catch (Exception | IOException e) // ❌ Compile-time error — IOException is a subclass of Exception
+```
+
+- In multi-catch, the exception variable e is implicitly final, so you cannot reassign it inside the block.
+```java
+catch (IOException | SQLException e) {
+    // e = new IOException(); ❌ Not allowed
+}
+```
+### try-with-resources
+- try-with-resources is a feature introduced in Java 7 that automatically closes resources (like files or streams) after they are used — even if an exception occurs.
+- The resource must implement the AutoCloseable interface (or its subtype, Closeable).
+
+- You can declare multiple resources in a single try statement by separating them with semicolons:
+```java
+try (
+    BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
+    BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt"))
+) {
+    String line = reader.readLine();
+    writer.write(line);
+}
+```
+- Note: Java closes resources in the reverse order of their creation (just like a stack). The last resource declared is closed first.
+
+#### Summary Table
+| Feature                     | Behavior                               |
+| --------------------------- | -------------------------------------- |
+| Multiple resources allowed? | ✅ Yes, separated by semicolons         |
+| Order of closing            | 🔁 LIFO (reverse of declaration)       |
+| Exception in one `close()`? | Still tries to close others            |
+| Suppressed exceptions?      | Yes, retrievable via `getSuppressed()` |
+
+
+
+
