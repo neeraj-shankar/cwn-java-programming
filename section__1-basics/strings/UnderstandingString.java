@@ -15,6 +15,11 @@ class DataTypeCharacter {
         }
     }
 
+    public static void stringOperations(){
+
+        System.out.println();
+    }
+
     public void addCharacters() {
         char ch1 = 'A'; // ASCII value: 65
         char ch2 = 'B'; // ASCII value: 66
@@ -90,7 +95,8 @@ public class UnderstandingString {
 
         // calling method using dtc object
         // dtc.operationChar();
-        dtc.addCharacters();
+        // dtc.addCharacters();
+
 
     }
 }

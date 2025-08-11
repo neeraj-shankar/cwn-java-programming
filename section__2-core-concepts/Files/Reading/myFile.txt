@@ -1,0 +1,4 @@
+This file is generated to test reading feature of buffered reader.
+Checked Exception → Must be handled with try-catch or declared with throws
+🔶 Unchecked Exception → Runtime errors; optional to handle
+❌ Error → Serious JVM/system issues; should not be caught in most cases.
